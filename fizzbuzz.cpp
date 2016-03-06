@@ -20,3 +20,7 @@
 //       ....
 //       ..
 
+int fizzbuzz(int input)
+{
+    return 1;
+}
