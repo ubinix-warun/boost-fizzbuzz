@@ -17,4 +17,9 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_3ShouldReturnFizz)
     BOOST_ASSERT_MSG(fizzbuzz(3) == -1, "3=>Fizz");
 }
 
+BOOST_AUTO_TEST_CASE(FIZZBUZZ_4ShouldReturn4)
+{
+    BOOST_ASSERT_MSG(fizzbuzz(4) == 4, "4=>4");
+}
+
 BOOST_AUTO_TEST_SUITE_END()
