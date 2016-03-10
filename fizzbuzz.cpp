@@ -24,5 +24,7 @@ int fizzbuzz(int input)
 {
     if(input == 3)
         return -1;
+    if(input == 5)
+        return -2;
     return input;
 }

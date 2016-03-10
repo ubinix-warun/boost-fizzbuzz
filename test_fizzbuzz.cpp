@@ -22,4 +22,10 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_4ShouldReturn4)
     BOOST_ASSERT_MSG(fizzbuzz(4) == 4, "4=>4");
 }
 
+BOOST_AUTO_TEST_CASE(FIZZBUZZ_5ShouldReturnBuzz)
+{
+    BOOST_ASSERT_MSG(fizzbuzz(5) == -2, "5=>Buzz");
+}
+
+
 BOOST_AUTO_TEST_SUITE_END()
