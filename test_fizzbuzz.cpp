@@ -29,7 +29,7 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_5ShouldReturnBuzz)
 
 BOOST_AUTO_TEST_CASE(FIZZBUZZ_6ShouldReturnFizz)
 {
-    BOOST_ASSERT_MSG(fizzbuzz(6) == -1, "5=>Fizz");
+    BOOST_ASSERT_MSG(fizzbuzz(6) == -1, "6=>Fizz");
 }
 
 BOOST_AUTO_TEST_SUITE_END()
