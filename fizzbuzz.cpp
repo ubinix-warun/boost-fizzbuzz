@@ -22,7 +22,7 @@
 
 int fizzbuzz(int input)
 {
-    if(input == 3)
+    if(input%3 == 0)
         return -1;
     if(input == 5)
         return -2;
