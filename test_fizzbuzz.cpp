@@ -10,6 +10,8 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_NotDiv3or5ShouldReturnIt)
     BOOST_ASSERT_MSG(fizzbuzz(7) == 7, "7=>7");
     BOOST_ASSERT_MSG(fizzbuzz(8) == 8, "8=>8");
     BOOST_ASSERT_MSG(fizzbuzz(11) == 11, "11=>11");
+    BOOST_ASSERT_MSG(fizzbuzz(13) == 13, "13=>13");
+    BOOST_ASSERT_MSG(fizzbuzz(14) == 14, "14=>14");
 }
 
 BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div3ShouldReturnFizz)
@@ -17,6 +19,7 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div3ShouldReturnFizz)
     BOOST_ASSERT_MSG(fizzbuzz(3) == -1, "3=>Fizz");
     BOOST_ASSERT_MSG(fizzbuzz(6) == -1, "6=>Fizz");
     BOOST_ASSERT_MSG(fizzbuzz(9) == -1, "9=>Fizz");
+    BOOST_ASSERT_MSG(fizzbuzz(12) == -1, "12=>Fizz");
 }
 
 BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div5ShouldReturnBuzz)
