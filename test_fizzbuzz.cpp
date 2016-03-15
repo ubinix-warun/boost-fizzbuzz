@@ -9,7 +9,7 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_NotDiv3or5ShouldReturnIt)
     BOOST_ASSERT_MSG(fizzbuzz(4) == 4, "4=>4");
     BOOST_ASSERT_MSG(fizzbuzz(7) == 7, "7=>7");
     BOOST_ASSERT_MSG(fizzbuzz(8) == 8, "8=>8");
-    BOOST_ASSERT_MSG(fizzbuzz(11) == 1, "1=>11");
+    BOOST_ASSERT_MSG(fizzbuzz(11) == 11, "11=>11");
 }
 
 BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div3ShouldReturnFizz)
