@@ -28,4 +28,9 @@ BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div5ShouldReturnBuzz)
     BOOST_ASSERT_MSG(fizzbuzz(10) == -2, "10=>Buzz");
 }
 
+BOOST_AUTO_TEST_CASE(FIZZBUZZ_Div3and5ShouldReturnBuzz)
+{
+    BOOST_ASSERT_MSG(fizzbuzz(15) == -3, "15=>FizzBuzz");
+}
+
 BOOST_AUTO_TEST_SUITE_END()
